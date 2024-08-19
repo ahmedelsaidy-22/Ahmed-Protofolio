@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed - Web Developer </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Ahmed Elsaidy</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Project</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+          <li>
+            <a href="CV.pdf" class="btn btn-primary">Download CV</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">2</p>
+              <p class="elem-text">Years of Success</p>
+            </div>
+            <div class="elem elem-2">
+              <p class="elem-title">20+</p>
+
+              <p class="elem-text">Projects Completed</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from New York"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span style="color:#fb523c">Hello I'm</span>
+              <strong>Ahmed Abdelwahed</strong>
+            </h2>
+
+            <p class="hero-text">
+              I am a freelance front-end designer and web developer who specializes in creating visually appealing
+               and functional websites and web pages. I design and code user interfaces that integrate text, 
+               images, videos,
+               and interactive features to deliver an engaging and seamless user experience.
+            </p>
+
+            <div class="btn-group">
+              <a href="CV.pdf" class="btn btn-primary blue">Download CV</a>
+
+              <a href="#about" class="btn">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="logo-angular"></ion-icon>
+            </div>
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Developer</p>
+            
+              <h2 class="h2 section-title">Personal Information</h2>
+              <p style="margin-bottom: 8px;" class="section-text">
+              <div style="font-weight: bold;">
+              <p style="display: flex;  gap: 6px;" ><strong><span>Name:</span></strong> Ahmed Abdelwahed El-Saidy</p>
+              <p style="display: flex; gap: 6px;"><strong><span>Address:</span></strong> 206 H, Hadayek El-Ahram</p>
+              <p style="display: flex; gap: 6px;"><strong><span>Email:</span></strong> <a href="mailto:ahmedelsaiidy22@gmail.com">ahmedelsaiidy22@gmail.com</a></p>
+              <p style="display: flex; gap: 6px;"><strong><span>Phone:</span></strong> 01145959007</p>
+            </div>
+            <h2 style="margin-bottom: 8px; font-weight: bold;"" class="h2 section-title">Academic Qualifications</h2>
+            <p>Bachelor's degree in Management Information Systems from Modern Academy.</p>
+            </p>
+            <h2 style="margin-bottom: 8px; font-weight: bold;" class="h2 section-title">Work Experience</h2>
+            <p>Web Designer & Front-End Developer at (Tafraa) 6 Month</p>
+            <p>Web Designer & Front-End Developer at (Nadein agency) 5Month</p>
+            
+            <h2 style="margin-bottom: 8px;" class="h2 section-title">Personal Skills</h2>
+            <ul style="font-weight: bold;">
+              <li>Problem-Solving</li>
+              <li>Communication Skills</li>
+              <li>Teamwork</li>
+              <li>Organizational Skills</li>
+              <li>Flexibility</li>
+              <li>Attention to Detail</li>
+            </ul>
+            <a href="#blog" class="btn btn-primary blue">View Project</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+          </p>
+
+
+        </div>
+            <div class="skills-container">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">UI/UX</div>
+            <div class="skill-item">HTML5</div>
+            <div class="skill-item">CSS3</div>
+            <div class="skill-item">Wordpress</div>
+            <div class="skill-item">SQL</div>
+            <div class="skill-item">GitHub</div>
+            
+        </div>
+  
+      </section>
+
+    
+    
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Latest News</p>
+
+          <h2 class="h2 section-title">Checkout My Recent Blogs</h2>
+
+          <p class="section-text">
+            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+          </p>
+
+          <ul class="blog-list">
+
+            
+
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/food-made-with-love./">
+                    <img src="./assets/images/food made with love.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>food made with love</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/food-made-with-love./" class="card-tag" style="color: #fff;">View Project</a> </button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/stay-safe-stay-healthy-/">
+                    <img src="./assets/images/stay safe, stay healthy.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>stay safe, stay healthy</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/stay-safe-stay-healthy-/" class="card-tag" style="color: #fff;">View Project</a> </button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/Bookly/">
+                    <img src="./assets/images/Bookly.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>Bookly</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/Bookly/" class="card-tag" style="color: #fff;">View Project </a></button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/Book-Your-New-Eco-Friendly/">
+                    <img src="./assets/images/Volti.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>Volti</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/Book-Your-New-Eco-Friendly/" class="card-tag" style="color: #fff;">View Project </a></button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/Enhance-Your-Future-With-TechEduca/">
+                    <img src="./assets/images/Enhance Your Future With TechEduca.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>Enhance Your Future With TechEduca</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/Enhance-Your-Future-With-TechEduca/" class="card-tag" style="color: #fff;">View Project</a> </button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/Man-summer-collection/">
+                    <img src="./assets/images/shoppie.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>shoppie</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/Man-summer-collection/" class="card-tag" style="color: #fff;">View Project </a></button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/covid-19/">
+                    <img src="./assets/images/covid-19.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>covid-19</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/covid-19/" class="card-tag" style="color: #fff;">View Project </a></button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/Welcome-to-The-world-of-Tasty/">
+                    <img src="./assets/images/Welcome to The world of Tasty & Fresh Food.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>Welcome to The world of Tasty & Fresh Food</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/Welcome-to-The-world-of-Tasty/" class="card-tag" style="color: #fff;">View Project</a> </button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/let-us-brighten-your-smile/">
+                    <img src="./assets/images/let us brighten your smile.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>let us brighten your smile</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/let-us-brighten-your-smile/" class="card-tag" style="color: #fff;">View Project</a> </button>
+              </div>
+            </li> 
+                <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/High-Quality-Pet-Food/">
+                    <img src="./assets/images/kitter-master.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>High Quality Pet Food</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/High-Quality-Pet-Food/" class="card-tag" style="color: #fff;">View Project </a></button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/popular-dishes/">
+                    <img src="./assets/images/popular dishes.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>popular dishes</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/popular-dishes/" class="card-tag" style="color: #fff;">View Project </a></button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/homemade-Pepperoni-Pizza/">
+                    <img src="./assets/images/homemade Pepperoni Pizza.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>homemade Pepperoni Pizza</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/homemade-Pepperoni-Pizza/" class="card-tag" style="color: #fff;" >View Project </a></button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/resturant-Chef-main/">
+                    <img src="./assets/images/WELCOME TO ROYATE.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>WELCOME TO ROYATE</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/resturant-Chef-main/" class="card-tag" style="color: #fff;">View Project</a> </button>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/Xpremo/">
+                    <img src="./assets/images/Xpremo.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>Xpremo</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/Xpremo/" class="card-tag" style="color: #fff;">View Project</a> </button>
+              </div>
+            </li>
+            
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/Epic-Games-Made-For-True-Gamers/">
+                    <img src="./assets/images/unigine.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>unigine</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/Epic-Games-Made-For-True-Gamers/" class="card-tag" style="color: #fff;">View Project</a> </button>
+              </div>
+            </li>
+            
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/crafti/">
+                    <img src="./assets/images/crafti-master.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>crafti</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/crafti/" class="card-tag" style="color: #fff;">View Project </a></button>
+              </div>
+            </li>
+            
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/autofix/">
+                    <img src="./assets/images/autofix-master.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>autofix</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/autofix/" class="card-tag" style="color: #fff;">View Project </a></button>
+              </div>
+            </li>
+       
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <a href="https://ahmedelsaidy-22.github.io/Crafting-project-specific-solutions-with-expertise/">
+                    <img src="./assets/images/Crafting project specific solutions with expertise.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                 </a>
+                </figure>
+                <h3>Crafting project specific solutions with expertise</h3>
+                <button><a href="https://ahmedelsaidy-22.github.io/Crafting-project-specific-solutions-with-expertise/" class="card-tag" style="color: #fff;">View Project </a></button>
+              </div>
+            </li>
+        
+
+           
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+     <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <form action="" class="contact-form">
+
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      20, London, United Kingdom
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:hello@ethan.com" class="contact-item-link">hello@ethan.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+1234567890" class="contact-item-link">+123 456 7890</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
